@@ -1,0 +1,4 @@
+.CodeMirror-foldgutter {
+  width: 0px !important; /*<---- edited this line!*/
+  display: none;
+}

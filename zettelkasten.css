@@ -1,0 +1,28 @@
+/* Tag Colors */
+.tag[href^="#refnote"] {
+  background-color: blue;
+}
+
+.tag[href^="#litnote"] {
+  background-color: green;
+}
+
+.tag[href^="#permnote"] {
+  background-color: orange;
+}
+
+.permanent-note .markdown-embed-title {
+  display: none;
+}
+
+/* Text Headings */
+.permanent-note strong {
+  color: orange !important;
+  font-weight: 900 !important;
+}
+.literature-note strong {
+  color: green !important;
+}
+
+.slipbox li { color: orange; 
+}

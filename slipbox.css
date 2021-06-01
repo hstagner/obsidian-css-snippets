@@ -1,0 +1,14 @@
+.slipbox {
+  font-family: var(--font-editor);
+  color: gray !important;
+  font-weight: 400;
+  font-size: var(--font-size-notes);
+  letter-spacing: var(--letter-spacing-notes);
+  line-height: 1.65 !important;
+  overflow-x: hidden;
+}
+
+
+.slipbox a.internal-link {
+  color: hsla(37, 65%, 63%, 1) !important;
+}

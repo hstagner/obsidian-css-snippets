@@ -1,0 +1,26 @@
+.markdown-embed-title {
+  display: none;
+}
+
+/*
+
+.permanent-note .markdown-embed::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-radius: 40px;
+    height: 1px;
+    background: #FF9800;
+    margin-right: 8px;
+}
+
+.permanent-note .markdown-embed::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-radius: 40px;
+    height: 1px;
+    background: #0722ED;
+    margin-right: 8px;
+}
+*/

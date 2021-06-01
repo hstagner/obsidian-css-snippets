@@ -1,0 +1,43 @@
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting:not(.cm-formatting-list):not(.cm-hashtag) {
+    display: none;
+  }
+  
+  div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-link {
+    opacity: 0.5;
+    font-size: calc(100% - 8px);
+  }
+  
+  :root {
+    --cl-action-tag-left:        #303030;
+    --cl-action-tag-right:    Gray;
+    --fg-action-tag:            GhostWhite;
+  }
+  
+  .cm-tag-discussWith, .cm-tag-waitingfor, .cm-tag-promisedTo {
+      color: white !important;
+      padding: 3px 5px 3px 5px;
+      font-size: 13px;
+      line-height: 1em;
+      border-radius: 5px 5px 5px 5px;
+      position:relative;
+      background: linear-gradient(to right, var(--cl-action-tag-left), var(--cl-action-tag-right)); 
+  }
+  
+  span.cm-formatting.cm-formatting-hashtag.cm-hashtag-begin.cm-hashtag.cm-meta.cm-tag-discussWith,
+  span.cm-formatting.cm-formatting-hashtag.cm-hashtag-begin.cm-hashtag.cm-meta.cm-tag-waitingfor,
+  span.cm-formatting.cm-formatting-hashtag.cm-hashtag-begin.cm-hashtag.cm-meta.cm-tag-promisedTo {
+      display: none !important;
+  }
+
+  
+  .cm-tag-discussWith::before {
+      content: '💬';
+  }
+  
+  .cm-tag-waitingfor::before {
+      content: '⏳';
+  }
+  
+  .cm-tag-promisedTo::before {
+      content: '🤝';
+  }

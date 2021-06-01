@@ -1,0 +1,8 @@
+.CodeMirror-activeline-background{
+    background-color: #222;
+}
+
+.cm-s-obsidian .CodeMirror-activeline-gutter > .CodeMirror-linenumber {
+  font-weight: 600;
+  color: #222;
+}
