@@ -35,11 +35,11 @@ span.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-permnote {
 }
 
 span.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-tag-refnote {
-  background-color: green !important;
+  background-color: blue !important;
   color: white !important;
 }
 span.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-refnote {
-  background-color: green !important;
+  background-color: blue !important;
   color: white !important;
 }
 
