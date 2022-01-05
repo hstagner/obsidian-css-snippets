@@ -15,6 +15,34 @@
   display: none;
 }
 
+/* Tag Color adjustments for Live Preview */
+span.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-tag-litnote {
+  background-color: green !important;
+  color: white !important;
+}
+span.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-litnote {
+  background-color: green !important;
+  color: white !important;
+}
+
+span.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-tag-permnote {
+  background-color: orange !important;
+  color: white !important;
+}
+span.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-permnote {
+  background-color: orange !important;
+  color: white !important;
+}
+
+span.cm-formatting.cm-formatting-hashtag.cm-hashtag.cm-hashtag-begin.cm-tag-refnote {
+  background-color: green !important;
+  color: white !important;
+}
+span.cm-hashtag.cm-hashtag-end.cm-meta.cm-tag-refnote {
+  background-color: green !important;
+  color: white !important;
+}
+
 /* Text Headings */
 .permanent-note strong {
   color: orange !important;
@@ -24,5 +52,5 @@
   color: green !important;
 }
 
-.slipbox li { color: orange; 
+.slipbox li { color: orange;
 }
